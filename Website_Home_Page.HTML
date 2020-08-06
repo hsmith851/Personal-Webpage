@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+  <head>
+    <title>Harrison's Personal Website</title>
+  <style>
+    body{
+      margin: 8px;
+      text-align: left;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+  </style>
+
+
+  </head>
+  <body>
+
+
+      <h1 style="text-align:center">Harrison Smith's Personal Website</h1>
+
+  <div id="nav-container" class="visible-md-block visible-lg-block">
+   
+   
+    <h2>Welcome to my Website!</h2>
+    <p> Good Morning/Afternoon/Evening, On this website, you will find all of the relevant skills that I learned and the projects that I completed during my time at school, work, and home. Big Projects such as the one I did from the University of Massachusetts Mathematics & Statistics Department and upper-level class are seen in the project link below. Each bulletin "Projects" will include a summary of the work I did and a link to where you can view the final product of each one. All other items such as computer programing projects are shown on my GitHub by clicking the link below. Thank you for visiting!
+  </p>
+    
+
+
+
+    <nav>
+      <h2>Important Links</h2>
+      <ul class="list-unstyled">
+        <li><a href="http://127.0.0.1:5500/Harrison%20Smith%20Website/About.html">About</a></li>
+        <li><a href="http://127.0.0.1:5500/Harrison%20Smith%20Website/Projects.html">Projects</a></li>
+        <li><a href="https://www.linkedin.com/in/hwsmith1/">LinkedIn</a></li>
+        <li><a href="https://github.com/hsmith851" target="_blank">GitHub</a></li>
+        <li><a href="" target="_blank">Hobbies and Interest</a></li>
+      </ul>
+
+
+    </nav>
+
+  </div>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="Umass.jpg" alt="Umass" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="View.jpg" alt="View" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Skyline.jpg" alt="Skyline" style="width:100%">
+  </div>
+</div>
+
+<p>Date/Time: <span id="datetime"></span></p>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+
+
+
+</body>
+  <footer class="visible-md-block visible-lg-block">
+  </footer>
+</html>
